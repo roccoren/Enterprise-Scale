@@ -91,7 +91,7 @@
                                         },
                                         {
                                             "apiVersion": "2017-03-15-preview",
-                                            "location": "[variables('workspaceRegion')]",
+                                            "location": "chinaeast2",
                                             "name": "[variables('workspaceName')]",
                                             "type": "Microsoft.OperationalInsights/workspaces",
                                             "properties": {
