@@ -535,7 +535,7 @@
                 "[variables('deploymentNames').policyDeploymentName]",
                 "DeploymentDelay"
             ],
-            "location": "[deployment().location]",
+            "location": "chinaeast2",
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
