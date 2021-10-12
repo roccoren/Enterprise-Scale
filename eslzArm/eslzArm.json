@@ -627,13 +627,13 @@
         "azPublicEndpointsPolicyMapping": {
             "https://management.azure.com/": "managementGroupTemplates/policyDefinitions/DENY-PublicEndpointsPolicySetDefinition.json",
             "https://management.usgovcloudapi.net": "managementGroupTemplates/policyDefinitions/gov/fairfaxDENY-PublicEndpointsPolicySetDefinition.json",
-			"https://management.chinacloudapi.cn": "managementGroupTemplates/policyDefinitions/china/mcDENY-PublicEndpointsPolicySetDefinition.json"
+	    "https://management.chinacloudapi.cn": "managementGroupTemplates/policyDefinitions/china/mcDENY-PublicEndpointsPolicySetDefinition.json"
         },
         "azPublicEndpointArmTemplate": "[variables('azPublicEndpointsPolicyMapping')[environment().resourceManager]]",
         "azPolicyPoliciesMapping": {
             "https://management.azure.com/": "managementGroupTemplates/policyDefinitions/policies.json",
             "https://management.usgovcloudapi.net": "managementGroupTemplates/policyDefinitions/gov/fairfaxPolicies.json",
-			"https://management.chinacloudapi.cn": "managementGroupTemplates/policyDefinitions/china/mcPolicies.json"
+	    "https://management.chinacloudapi.cn": "managementGroupTemplates/policyDefinitions/china/mcPolicies.json"
         },
         "azPolicyArmTemplate": "[variables('azPolicyPoliciesMapping')[environment().resourceManager]]",
         "deploymentUris": {
